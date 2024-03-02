@@ -12,6 +12,7 @@
     width: 100%;
     padding: 10px;
     flex-direction: column;
+    gap: 0px;
   }
 
   .textContainer {
@@ -46,8 +47,8 @@
     position: relative;
 
     @include mobile {
-      padding: 100px;
-      width: 100%;
+      padding: 20px;
+      width: 80%;
     }
 
     .phoneSvg {
@@ -71,7 +72,7 @@
         border-radius: 5px;
 
         @include mobile {
-          padding: 4px;
+          padding: 10px;
         }
       }
 
