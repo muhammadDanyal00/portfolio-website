@@ -87,9 +87,9 @@
         cursor: pointer;
         font-weight: 500;
         @include mobile {
-          padding: 10px;
-          padding-top: 0;
-          padding-bottom: 0;
+          padding: 20px;
+          padding-top: 5px;
+          padding-bottom: 5px;
           margin-bottom: 500px;
         }
       }
